@@ -21,9 +21,6 @@ default["libicu"]["packages"] = value_for_platform_family(
   "debian" => %w(
     libicu-dev
   ),
-  "ubuntu" => %w(
-    libicu-dev
-  ),
   "suse" => %w(
     libicu-devel
   )
